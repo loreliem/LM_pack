@@ -47,6 +47,9 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+  print(" Guess what? I have flaws. What are they? Oh I donno, I sing in the shower? Sometimes I spend too much time volunteering. Occasionally I'll hit somebody with my car. So sue me-- no, don't sue me. That is opposite the point I'm trying to make.")
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
