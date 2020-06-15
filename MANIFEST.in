@@ -1,0 +1,3 @@
+graft LM_pack
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  LM_pack/jupy *
